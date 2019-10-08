@@ -1,5 +1,5 @@
 {
-  "name": "color",
+  "name": "@jgreulich/color",
   "version": "0.0.1",
   "description": "color manipulation library",
   "main": "dist/color.js",
