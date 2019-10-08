@@ -1,0 +1,37 @@
+{
+  "name": "color",
+  "version": "0.0.1",
+  "description": "color manipulation library",
+  "main": "dist/color.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbgreulich/color.git"
+  },
+  "keywords": [
+    "color",
+    "conversion",
+    "color",
+    "creation"
+  ],
+  "author": "Jessica Greulich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbgreulich/color/issues"
+  },
+  "homepage": "https://github.com/jbgreulich/color#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.9"
+  },
+  "files": [
+    "dist/color.js"
+  ]
+}
